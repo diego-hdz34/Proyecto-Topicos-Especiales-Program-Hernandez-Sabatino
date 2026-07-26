@@ -1,4 +1,34 @@
+# ─── Dependencias ─────────────────────────────────────────────────────────────
 node_modules/
+
+# ─── Compilación de TypeScript ────────────────────────────────────────────────
 dist/
+*.tsbuildinfo
+
+# ─── Cobertura de tests (Jest) ────────────────────────────────────────────────
+coverage/
+
+# ─── Variables de entorno ─────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
 *.log
+logs/
+npm-debug.log*
+
+# ─── Sistema Operativo ────────────────────────────────────────────────────────
+# macOS
 .DS_Store
+# Windows
+Thumbs.db
+Desktop.ini
+# Linux
+*~
+
+# ─── Editores e IDEs ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
